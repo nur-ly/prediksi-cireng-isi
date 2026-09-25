@@ -169,7 +169,7 @@ with tab1:
     st.caption("Masukkan detail operasional harian/bulanan di bawah ini.")
     
     # Contoh input disesuaikan dengan fitur dataset Cireng Isi kamu:
-    harga_jual = st.number_input("Harga Jual per Pcs (Rp)", value=2500)
+    harga_jual = st.number_input("Harga Jual per Pcs (Rp)", value=5000)
     jumlah_produksi = st.slider("Jumlah Produksi Harian (Pcs)", 50, 1000, 200)
     biaya_promosi = st.slider("Biaya Promosi (Rb)", 0, 500, 50)
     hari_operasional = st.slider("Hari Operasional / Bulan", 1, 30, 26)
